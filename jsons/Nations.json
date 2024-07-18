@@ -1,38 +1,79 @@
-[
+
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Castilla Leon",
+		"leaderName": "Felipe I",
+		"adjective": ["pueblo"],
+           "startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"startIntroPart1": "soy Felipe i.",
+		"startIntroPart2": "soy Felipe i",
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+"introduction": "yo soy Felipe I, de castilla, y espero que tus propositos no sean malignos.",
+		"declaringWar": "Yo ya me e cansado de tus tratos hacia mi pueblo, el esclavismo de tu pueblo acabara hoy.",
+		"attacked": "Dios, que he hecho para que me traicionaras?",
+		"afterPeace": "espero que cambies.",
+		"defeated": "Escastigo divino, e querido mas de lo que puedo controlar, cuida bien de mi pueblo .",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+
+		"introduction": "Welcome, I am Adolf Hitler, FÃ¼hrer of the German People. Now, let us discuss regarding the lands that you have mistook to be yours.",
+		
+		"neutralHello": "Heil!",
+		"neutralLetsHearIt": ["Let us hear it then.","Pry tell then.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","Of course not!"],
+		"neutralYes": ["That is an excellent proposition.","Very well.","That may sound reasonable."],
+		
+		"hateHello": "Speak!",
+		"hateLetsHearIt": ["What now!?","Hurry up then!","Quickly!"],
+		"hateNo": ["No!","That is outrageous!","Never!"],
+		"hateYes": ["Fine!","Very well then.","This may work."],
+		
+		"tradeRequest": "I believe this deal can be proved to be beneficial for all of us.",
+	"outerColor": [255, 228, 0], 
+       "innerColor": [255, 0, 0],
+	
+		
+"uniqueName": "la reconquista",
+		"uniques": ["[Wounded] units gain the [Mobility I] promotion", "[9] free technology", "[+1 faith][cityFilter]",  "[+2] [happiness] [in all cities]"],
+
+		"cities": [ "Leon", "Burgos", "Avila", "Palencia", "Salamanca", "Segovia", "Soria", "Valladolid" ," Zamora"]
+	},
+	
+	{
+		"name": "Aragon",
+		"leaderName": "Fernando II",
+		"adjective": ["reyno"],
+		"startBias": ["Hill", "Grassland","Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Soy Fernando II",
+		"startIntroPart2": "Soy Fernando II",
+		
+		"declaringWar": "QUE DIOS TENGA PIEDAD DE TU ALMA!",
+		"attacked": "LUCHARE POR MI PUEBLO!",
+		"defeated": "que e hecho, mi pueblo una ves mas esclavisado",
+		"introduction": "espero que nuestros deseos sean iguales",
+		
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["Do not make me wait then.","I am listening.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","That is unacceptable."],
+		"neutralYes": ["Good.","Very well.","This will do."],
+		
+		"hateHello": "What do you want!?",
+		"hateLetsHearIt": ["Spit it out!","What?","Out with it!"],
+		"hateNo": ["Never!","Excuse me?","You are joking right?"],
+		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
+		
+		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
+		"outerColor": [ 255, 0, 0],
+		"innerColor": [255, 228, 0],
+		
+		"uniqueName": "Gloria a Aragon",
+		"uniques": ["[+30]% Strength [Unit] when stacked with [Wounded]", "[+2]% Spread Religion Strength"]
+		"cities": ["Madrid", "Saragosa", "Alcañis", "Alagon", "Albarracis", "tauste", "calatayud", "Caspe", "Borja", "Ainzon", "Alfamen"]
+	},
+	
+
 ]
