@@ -1,5 +1,8 @@
-# Unciv-mod-example
+# Community-Maps
+This repository will serve as a simple source for good to great maps, especially in #custom-maps-🗺 from Unciv's discord server. If you have a nomination, write up an issue, a pull request, or do whatever else you're comfortable with!
 
-An example mod for Unciv, that adds one new Civilization.
+It is recomended to go to map editor > Generate > Partial > Spread Resources; to reload the resources and have a different playthrough.
 
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
+Dictionary of terms: S = Small Size; M - Medium Size; L - Large Size; XL - Huge Size; +XXL - Extra Huge; G - Gigantic.
+
+Now all maps can be previewed in-game, and the info is now shown in-game as well.
