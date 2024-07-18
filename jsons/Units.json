@@ -1,17 +1,32 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
-]
+		"name": "Guardias de castilla",
+		"unitType": "Mounted",
+		"uniqueTo": "Castilla Leon",
+		"replaces": "Knight",
+		"movement": 5,
+		"strength": 30,
+		"cost": 155,
+	     "requiredResource": "Horses",
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Horseman",
+		"obsoleteTech": "Military Science",
+		"attackSound": "shot",
+	},
+		
+	{
+		"name": "Templario de la corrona",
+		"unitType": "Sword",
+		"uniqueTo": "Aragon",
+		"replaces": "Longswordsman",
+		"movement": 3,
+		"strength": 26,
+		"cost": 130,
+		"requiredTech": "Steel",
+		"requiredResource": "Iron",
+		"upgradesTo": "Musketman",
+		"uniques": ["[+5]% Spread Religion Strength", "[6] HP when healing"]
+		"attackSound": "shot"
+	},
+	
+	]
