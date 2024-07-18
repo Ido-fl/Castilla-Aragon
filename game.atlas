@@ -1,19 +1,33 @@
 
 game.png
-size: 2048, 1024
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Catedral Santa
-rotate: false
-  xy: 4, 19
-  size: 200, 200
-  orig: 200, 200
+NationIcons/Aragon
+  rotate: false
+  xy: 1044, 144
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Castilla y Leon
- rotate: false
-  xy: 252, 41
+NationIcons/Castilla Leon
+  rotate: false
+  xy: 1152, 144
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Guardias de castilla
+  rotate: false
+  xy: 1260, 144
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Templario de la corrona
+  rotate: false
+  xy: 836, 44
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
